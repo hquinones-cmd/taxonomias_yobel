@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tabla de Componentes Centrada con Estilo</title>
+<style>
+  /* Estilos para el borde cuadriculado */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    border: 1px solid #000000; 
+    padding: 8px; 
+    text-align: center; /* ⬅️ Modificación 1: Centra el texto en todas las celdas */
+  }
+
+  /* Estilo específico para los encabezados */
+  thead th {
+    background-color: #B0E0E6; /* ⬅️ Modificación 2: Color celeste claro (Powder Blue) */
+    font-weight: bold;
+    color: #000000;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>MÁQUINA</th>
+      <th>COD. MQ</th>
+      <th>CÓDIGO</th>
+      <th>DESCRIPCIÓN</th>
+      <th>CANTIDAD</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="11">ENVASADORA N/1 B</td>
+      <td rowspan="10">ECS99</td>
+      <td>MRM001785</td>
+      <td>UNIDAD DE MANTENIMIENTO COMBINADA MSB4-1/4-FRC5:</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MRM006627</td>
+      <td>DISTRIBUIDOR NEUMATICO ALUMINIO FR-4-1/4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MRM002694</td>
+      <td>ELECTROVALVULA MFH-5-1/4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MRM001901</td>
+      <td>VALVULA DE ESTRANGULACION Y ANTIRETORNO GR-QS-8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MRM001902</td>
+      <td>VALVULA DE ESTRANGULACION Y ANTIRETORNO GR-QS-6</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CREAR</td>
+      <td>VALVULA MECANICA SMC VM200</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MRM001944</td>
+      <td>VALVULA NEUMATICA 3/2, VM131-01-01SA</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CREAR</td>
+      <td>CILINDRO NEUMATICO EMBOLO DNC 80 200 PPV A</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MRM001943</td>
+      <td>VALVULA NEUMATICA 4/2, VH212-02</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MRM001690</td>
+      <td>CILINDRO NORMALIZADO DSNU-25-50-P-A</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>EXTRA</td>
+      <td>MRM004228</td>
+      <td>KIT CILINDRO DNC-80-PPV-A</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
